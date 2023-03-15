@@ -1,0 +1,41 @@
+.navbar-container {
+    position: absolute;
+    width: 1920px;
+    height: 53px;
+    left: 0px;
+    top: 0px;
+    background: #3187ED;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-left-section{
+    display: flex;
+    gap: 20px;
+}
+.navbar-left-section div{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.navbar-right-section{
+    display: flex;
+    gap: 20px;
+}
+.navbar-right-section div{
+    display: flex;
+    gap: 10px;
+}
+
+.color-white{
+    color: #ffff;
+    cursor: pointer;
+}
+
+.navbar-select-option{
+    border: none;
+    background-color: #3187ED;
+    color: #ffff;
+}
